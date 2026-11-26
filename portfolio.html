@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Portfolio | Marini Mediaty Lukas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="bar">
+    <a class="logo" href="index.html">Marini Mediaty Lukas</a>
+    <button id="menu" aria-label="Menu">Menu</button>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="biodata.html">My Biodata</a>
+      <a href="portfolio.html" class="on">My Portfolio</a>
+      <a href="video.html">My Video</a>
+      <a href="comments.html">Your Comments</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <h1>My Portfolio</h1>
+
+  <div class="grid">
+    <div class="card">
+      <h3>Personal Webpage</h3>
+      <p>This five-page site, built with HTML, CSS and JavaScript.</p>
+      <a class="tag" href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" rel="noopener">HTML</a>
+      <a class="tag" href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" rel="noopener">CSS</a>
+      <a class="tag" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noopener">JS</a>
+    </div>
+
+    <div class="card">
+      <h3>Project 2</h3>
+      <p>Describe an assignment, what you built and what you learned.</p>
+      <a class="tag" href="https://www.python.org" target="_blank" rel="noopener">Python</a>
+    </div>
+
+    <div class="card">
+      <h3>Project 3</h3>
+      <p>Describe a group project or personal work and your role.</p>
+      <a href="#" onclick="showTeam(event)">Show / hide team photo</a>
+      <img id="teamImage" class="project-image" src="assets/team.jpg" alt="Team photo" style="display:none">
+      <a class="tag" href="https://www.canva.com" target="_blank" rel="noopener">Design</a>
+    </div>
+  </div>
+
+  <h2>Certificates</h2>
+  <p>List your certificates, awards and workshops here.</p>
+</main>
+
+<footer>
+  <p>&copy; 2026 Marini Mediaty Lukas</p>
+  <a href="https://github.com/yourname">GitHub</a>
+  <a href="https://linkedin.com/in/yourname">LinkedIn</a>
+  <a href="https://instagram.com/yourname">Instagram</a>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

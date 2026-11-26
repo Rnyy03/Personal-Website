@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Your Comments | Marini Mediaty Lukas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="bar">
+    <a class="logo" href="index.html">Marini Mediaty Lukas</a>
+    <button id="menu" aria-label="Menu">Menu</button>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="biodata.html">My Biodata</a>
+      <a href="portfolio.html">My Portfolio</a>
+      <a href="video.html">My Video</a>
+      <a href="comments.html" class="on">Your Comments</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <h1>Your Comments</h1>
+  <p>Tell me what you think of this site.</p>
+
+  <form id="cf" novalidate>
+    <div>
+      <label for="nm">Name</label>
+      <input id="nm" autocomplete="name">
+      <div class="err"></div>
+    </div>
+    <div>
+      <label for="em">Email</label>
+      <input id="em" type="email" autocomplete="email">
+      <div class="err"></div>
+    </div>
+    <div>
+      <label for="rt">Rating</label>
+      <select id="rt">
+        <option>5 - Excellent</option>
+        <option>4 - Good</option>
+        <option>3 - Okay</option>
+        <option>2 - Needs work</option>
+      </select>
+    </div>
+    <div>
+      <label for="msg">Comment</label>
+      <textarea id="msg" rows="5"></textarea>
+      <div class="err"></div>
+    </div>
+    <button class="btn" type="submit">Send comment</button>
+  </form>
+
+  <div id="ok"><b>Thank you, <span id="who"></span>!</b> Your comment has been received.</div>
+</main>
+
+<footer>
+  <p>&copy; 2026 Marini Mediaty Lukas</p>
+  <a href="https://github.com/yourname">GitHub</a>
+  <a href="https://linkedin.com/in/yourname">LinkedIn</a>
+  <a href="https://instagram.com/yourname">Instagram</a>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
